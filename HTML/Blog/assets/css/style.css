@@ -78,9 +78,10 @@ header{
 .formulario{
     display: flex;
     flex-flow: column;
-    max-width: 90%;
+    max-width: 100%;
     width: 500px;
     margin: auto;
+    padding-bottom: 30px;
 }
 
 .formulario label{
@@ -103,7 +104,7 @@ button{
     flex-flow: column;
     align-items: center;
     background-color: rgb(143, 7, 64);
-    height: 30em;
+    padding-bottom: 50px;
 }
 
 .map .titulo{
